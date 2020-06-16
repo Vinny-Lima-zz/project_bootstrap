@@ -1,0 +1,168 @@
+.nav-link{
+    margin: 0 15px;
+}
+
+section.bg-top{
+    position: relative;
+    top: 56px;
+    width: 100%;
+    min-height: 600px;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.fix-z-index{
+    position: relative;
+    z-index: 2;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.text-bg{
+    display: inline-block;
+    color: white;
+    padding: 140px 0;
+}
+
+section.call{
+    position: relative;
+    top: 56px;
+    background-color: #3FA3C5;
+    color: white;
+    padding: 8px 0;
+}
+
+section.call h2{
+    font-size: 30px;
+}
+
+section.about{
+    position: relative;
+    top: 56px;
+    padding: 30px 0;
+}
+
+.custom-title{
+    position: relative;
+}
+
+.custom-title h2{
+    color: #888;
+    font-size: 24px;
+}
+
+.custom-title div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #3FA3C5;
+    width: 27px;
+    height: 3px;
+}
+
+section.differentials{
+    position: relative;
+    top: 56px;
+    padding: 30px 0;
+    color: #646464;
+}
+
+section.differentials .col-md-4{
+    padding: 0 40px;
+}
+
+section.differentials .row h2{
+    padding: 10px;
+    border-bottom: 1px dotted black;
+}
+
+section.invite{
+    position: relative;
+    top: 56px;
+    padding: 30px 0;
+    background-color: #3FA3C5;
+    color: white;
+}
+
+section.invite h2{
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+section.invite form{
+    margin: 15px 0;
+}
+
+section.invite input[type=email]{
+    width: calc(100% - 100px);
+    height: 40px;
+}
+
+section.invite button{
+    width: 100px;
+    height: 40px;
+    vertical-align: top;
+}
+
+section.contact{
+    position: relative;
+    top: 56px;
+    padding: 30px 0;
+}
+
+footer.first{
+    position: relative;
+    top: 56px;
+    padding: 15px 0;
+    background-color: #444;
+    color: white;
+}
+
+footer.first ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.group-btns a{
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+footer.first h2{
+    font-size: 24px;
+}
+
+footer.first a{
+    color: white;
+}
+
+footer.final{
+    position: relative;
+    top: 56px;
+    background-color: #333;
+
+}
+
+footer.final p{
+    padding: 10px 0;
+    margin: 0;
+    color: white;
+}
+
+@media screen and (max-width: 767px){
+    .nav-link{
+        margin: 0;
+    }
+}
